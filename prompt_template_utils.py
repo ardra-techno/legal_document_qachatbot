@@ -14,7 +14,6 @@ Please carefully read the provided context before responding to questions and ap
 Some time you cannot find any data in document, that time Utilize your knowledge of Australian law and legislation exclusively to address the user's queries. 
 Avoid incorporating information from sources outside Australian law. Provide a comprehensive and detailed response to each question."""
 
-
 def get_prompt_template(system_prompt=system_prompt, promptTemplate_type=None, history=False):
     if promptTemplate_type == "llama":
         B_INST, E_INST = "[INST]", "[/INST]"
